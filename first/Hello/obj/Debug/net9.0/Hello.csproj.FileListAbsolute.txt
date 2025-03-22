@@ -64,3 +64,7 @@
 /home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/Hello.csproj.Up2Date
 /home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/Hello.genruntimeconfig.cache
 /home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/ref/Hello.dll
+/home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/Hello.sourcelink.json
+/home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/Hello.dll
+/home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/refint/Hello.dll
+/home/sirk/Documents/git/sharps/first/Hello/obj/Debug/net9.0/Hello.pdb

@@ -1,14 +1,17 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Hello.MainWindow"
-        Title="Hello">
-    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <TextBlock Text = "Hello World"
-                    FontSize = "24"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"/>
-    </StackPanel>
+        Title="Список пользователей"
+        Width="400" Height="300">
+  <StackPanel Margin="10">
+    <!-- ListBox для отображения списка пользователей -->
+    <ListBox x:Name="UserListBox">
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+          <!-- Отображаем имя пользователя -->
+          <TextBlock Text="{Binding Name}" FontSize="16" Margin="5"/>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  </StackPanel>
 </Window>
