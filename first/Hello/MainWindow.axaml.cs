@@ -1,26 +1,28 @@
 using Avalonia.Controls;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Threading.Tasks;
 
-namespace Hello
+namespace Hello;
+public partial class MainWindow : Window
 {
-    public partial class MainWindow : Window
+    public MainWindow()
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-            // Загружаем данные из базы сразу после инициализации окна
-            LoadUsersAsync();
-        }
+        InitializeComponent();
+        LoadUsersAsync(); // Fire-and-forget with error handling
+    }
 
-        // Асинхронный метод для загрузки пользователей
-        private async Task LoadUsersAsync()
+    private async void LoadUsersAsync() // Changed to async void
+    {
+        try
         {
             using var db = new AppDbContext();
-            // Получаем список пользователей из базы данных
-            var users = await db.Users.ToListAsync();
-            // Устанавливаем полученный список как источник данных для ListBox
-            UserListBox.ItemsSource = users;
+            UserListBox.ItemsSource = await db.Users.ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle database errors
+            Console.WriteLine($"Error loading users: {ex.Message}");
         }
     }
 }

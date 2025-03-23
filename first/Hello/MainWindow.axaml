@@ -1,15 +1,14 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Hello"
         x:Class="Hello.MainWindow"
         Title="Список пользователей"
         Width="400" Height="300">
   <StackPanel Margin="10">
-    <!-- ListBox для отображения списка пользователей -->
     <ListBox x:Name="UserListBox">
       <ListBox.ItemTemplate>
-        <DataTemplate>
-          <!-- Отображаем имя пользователя -->
-          <TextBlock Text="{Binding Name}" FontSize="16" Margin="5"/>
+        <DataTemplate DataType="{x:Type local:User}">
+          <TextBlock Text="{Binding FullInfo}" FontSize="16" Margin="5"/>
         </DataTemplate>
       </ListBox.ItemTemplate>
     </ListBox>
