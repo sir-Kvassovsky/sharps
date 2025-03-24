@@ -5,6 +5,6 @@ namespace Hello
         public int Id { get; set; } 
         public string Name { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
-        public string FullInfo => $"{this.Name}     {this.Email}";
+        public string FullInfo => $"{Name}     {Email}";
     }
 }

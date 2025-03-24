@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vtxo7T5MppI=",
+  "dgSpecHash": "1ARAjCQdrNs=",
   "success": true,
   "projectFilePath": "/home/sirk/Documents/git/sharps/first/Hello/Hello.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "/home/sirk/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.3/microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
     "/home/sirk/.nuget/packages/microsoft.extensions.options/9.0.3/microsoft.extensions.options.9.0.3.nupkg.sha512",
     "/home/sirk/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "/home/sirk/.nuget/packages/microsoft.net.illink.tasks/9.0.3/microsoft.net.illink.tasks.9.0.3.nupkg.sha512",
     "/home/sirk/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512",
     "/home/sirk/.nuget/packages/npgsql.entityframeworkcore.postgresql/9.0.4/npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "/home/sirk/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
@@ -48,7 +49,10 @@
     "/home/sirk/.nuget/packages/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
     "/home/sirk/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/sirk/.nuget/packages/tmds.dbus.protocol/0.20.0/tmds.dbus.protocol.0.20.0.nupkg.sha512",
-    "/home/sirk/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.3/microsoft.aspnetcore.app.ref.9.0.3.nupkg.sha512"
+    "/home/sirk/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/9.0.3/microsoft.netcore.app.runtime.linux-x64.9.0.3.nupkg.sha512",
+    "/home/sirk/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.3/microsoft.aspnetcore.app.ref.9.0.3.nupkg.sha512",
+    "/home/sirk/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/9.0.3/microsoft.aspnetcore.app.runtime.linux-x64.9.0.3.nupkg.sha512",
+    "/home/sirk/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.3/microsoft.netcore.app.host.linux-x64.9.0.3.nupkg.sha512"
   ],
   "logs": []
 }

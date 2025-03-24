@@ -1,0 +1,4 @@
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/linux-x64/publish/Hello.pdb
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/linux-x64/publish/libHarfBuzzSharp.so
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/linux-x64/publish/libSkiaSharp.so
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/linux-x64/publish/Hello

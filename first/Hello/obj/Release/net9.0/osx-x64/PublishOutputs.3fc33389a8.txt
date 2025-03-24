@@ -1,0 +1,5 @@
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/osx-x64/publish/Hello.pdb
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/osx-x64/publish/libAvaloniaNative.dylib
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/osx-x64/publish/libHarfBuzzSharp.dylib
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/osx-x64/publish/libSkiaSharp.dylib
+/home/sirk/Documents/git/sharps/first/Hello/bin/Release/net9.0/osx-x64/publish/Hello
