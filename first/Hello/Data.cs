@@ -9,7 +9,7 @@ namespace Hello
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseNpgsql("Host=localhost;Port=5432;Database=sharps;Username=postgres;Password=14141")
+            options.UseNpgsql("Host=localhost;Port=5432;Database=sharps;Username=postgres;Password=12345")
             .LogTo(Console.WriteLine);    // View SQL queries
 }
     }
